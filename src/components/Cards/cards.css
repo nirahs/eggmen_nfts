@@ -1,0 +1,39 @@
+.cards {
+  width: 100%;
+}
+
+.card-link {
+  text-align: center;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  background: var(--secondary-light-color);
+  border-radius: 50%;
+  margin: 8px;
+} 
+
+.card-wrapper{
+  width: 240px;
+  height: 270px;
+  border: var(--block-border);
+  border-radius: var(--block-border-radius);
+}
+
+.card-wrapper:hover {
+  box-shadow: var(--block-shadow);
+}
+
+.card-wrapper .card {
+  width: 240px;
+  height: 270px;
+  display: none;
+}
+
+.card-wrapper .active {
+  display: flex;
+}
+
+.card-wrapper .card .token {
+  width: 200px;
+  height: 230px;
+}

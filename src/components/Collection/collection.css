@@ -1,0 +1,43 @@
+.collection {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.collection .heading {
+  color: var(--secondary-dark-color);
+  position: relative;
+  margin: 15px auto;
+}
+
+.collection .heading-border::after {
+  top: 40px;
+  border: 1.5px solid var(--secondary-dark-color);
+}
+
+.collection .tokens-container {
+  width: 100%;
+}
+
+.collection .tokens-container .token-wrapper {
+  width: 240px;
+  height: 270px;
+  margin: auto;
+  border-radius: var(--block-border-radius);
+  border: var(--block-border);
+}
+
+.collection .tokens-container .token-wrapper:hover {
+  box-shadow: var(--block-shadow);
+}
+
+.collection .tokens-container .token-wrapper .rare-token {
+  width: 200px;
+  height: 230px;
+}
+
+/* Larger Desktops/Laptops */
+@media (min-width: 1441px) {
+  .collection .heading-border::after {
+    top: 42px;
+  }
+}

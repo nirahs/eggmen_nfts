@@ -1,0 +1,14 @@
+.page-unavailable-container {
+  width: 100vw;
+  height: 100vh;
+  color: var(--secondary-dark-color)
+}
+
+.page-unavailable-container .img-wrapper img{
+  width: 220px;
+  height: 230px;
+}
+
+.page-unavailable-container .heading-wrapper {
+  text-align: center;
+}

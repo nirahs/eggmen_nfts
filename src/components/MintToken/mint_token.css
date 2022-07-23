@@ -1,0 +1,56 @@
+.mint-token {
+  color: var(--secondary-dark-color);
+  width: 100%;
+}
+
+.mint-token .mint-token-container {
+  max-width: 1400px;
+  height: 100vh;
+  margin: auto;
+}
+
+.mint-token .mint-token-container .heading-wrapper {
+  flex: 0.4;
+  text-align: center;
+}
+
+.mint-token .mint-token-container .heading-border::after {
+  top: 40px;
+  border: 1.5px solid var(--secondary-dark-color);
+}
+
+.mint-token .mint-token-container .token-wrapper {
+  flex: 2;
+}
+
+.mint-token .mint-token-container .links-btns-wrapper {  
+  flex: 1;
+}
+
+.mint-token .mint-token-container .btns-wrapper .btn{  
+  margin: 15px 10px;
+}
+
+.mint-token .mint-token-container .links-btns-wrapper .links-wrapper {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.mint-token .mint-token-container .links-btns-wrapper .links-wrapper.active {
+  opacity: 1;
+}
+
+.mint-token .mint-token-container .links-btns-wrapper .links-wrapper.deactive {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.mint-token .mint-token-container .links-btns-wrapper .links-wrapper .link {
+  margin: 8px;
+}
+
+.mint-token .mint-token-container .links-btns-wrapper .links-wrapper .external-link-icon {
+  top: 0.15em;
+  width: 14px;
+  height: 14px;
+}

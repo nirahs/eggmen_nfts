@@ -1,0 +1,44 @@
+.info { 
+  color: var(--secondary-dark-color);
+  width: 100%;
+  height: 100%;
+  margin-top: 90px;
+}
+
+.info .info-container {
+  max-width: 1440px;
+  margin: auto;
+  color: var(--secondary-dark-color);
+  height: 100%;
+}
+
+.info .info-container .info-wrapper .info-sub-wrapper {
+  padding: 25px 0px;
+}
+
+.info .info-container .paragraph{
+  text-align: justify;
+  display: block;
+}
+
+.info .info-container .heading {
+  white-space: normal;
+}
+
+.info .info-container .heading-border::after {
+  top: 40px;
+  border: 1.5px solid var(--secondary-dark-color);
+}
+
+.info .info-container .info-wrapper .point{
+  display: block;
+  text-align: justify;
+  margin: 20px auto;
+}
+
+.info .info-container .info-wrapper .sub-point{
+  display: block;
+  text-align: justify;
+  margin: 15px auto;
+}
+

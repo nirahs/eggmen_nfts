@@ -1,0 +1,43 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  z-index: 10;
+}
+
+.modal-backdrop .modal {
+  padding: 40px 30px;
+  max-width: 400px;
+  background: var(--primary-light-color);
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.modal-backdrop .modal .toggle {
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  background: var(--secondary-light-color);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+/* Larger Mobiles & Medium Mobiles & Smaller Mobiles*/
+@media (max-width: 430px) {
+  .modal-backdrop .modal {
+    padding: 25px;
+    max-width: 270px;
+  }
+  .modal-backdrop .modal .toggle {
+    width: 25px;
+    height: 25px;
+    top: 8px;
+    right: 8px;
+  }
+}
